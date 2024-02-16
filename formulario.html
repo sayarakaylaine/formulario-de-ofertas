@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/formulario.css">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<div class="container_form">
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form class="form" action="#" method="post">
+        
+        <div class="form_grupo">
+            <label for="nome" class="form_label">Nome</label>
+            <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+        </div>
+
+        <div class="form_grupo">
+            <label for="sobrenome" class="form_label">Sobrenome</label>
+            <input type="text" name="sobrenome" class="form_input" id="sobrenome" placeholder="Sobrenome" required>
+        </div>
+        
+        <div class="column">
+      
+            <div class="input-box">
+              <label>E-mail</label>
+              <input type="email" name="email" class="form_input" placeholder="seuemail@email.com" required>
+            </div>
+        
+            <div class="input-box">
+              <label>Telefone</label>
+              <input type="text" name="telefone" class="form_input" placeholder="Digite seu telefone" required>
+            </div>
+
+        </div>     
+
+        <div class="column">
+
+            <div class="input-box">
+                <label>Cidade</label>
+                <input type="text" name="cidade" class="form_input" placeholder="Ex: Ji-Paraná" required>
+              </div>
+    
+            <div class="input-box">
+            
+                <label for="estado" class="text">Estado</label>
+                <select name="estado" class="dropdown" required>
+                    
+                    <option selected disabled class="form_select_option" value="">Selecione</option>
+                    <option value="Acre" class="form_select_option">Acre</option>
+                    <option value="Alagoas" class="form_select_option">Alagoas</option>
+                    <option value="Amapá" class="form_select_option">Amapá</option>                    
+                    <option value="Amazonas" class="form_select_option">Amazonas</option>    
+                    <option value="Bahia" class="form_select_option">Bahia</option> 
+                    <option value="Ceará" class="form_select_option">Ceará</option> 
+                    <option value="Espírito Santo" class="form_select_option">Espírito Santo</option> 
+                    <option value="Goiás" class="form_select_option">Goiás</option> 
+                    <option value="Maranhão" class="form_select_option">Maranhão</option> 
+                    <option value="Mato Grosso" class="form_select_option">Mato Grosso</option> 
+                    <option value="Mato Grosso do Sul" class="form_select_option">Mato Grosso do Sul</option> 
+                    <option value="Minas Gerais" class="form_select_option">Minas Gerais</option> 
+                    <option value="Pará" class="form_select_option">Pará</option> 
+                    <option value="Paraíba" class="form_select_option">Paraíba</option>         
+                    <option value="Paraná" class="form_select_option">Paraná</option>  
+                    <option value="Pernambuco" class="form_select_option">Pernambuco</option>  
+                    <option value="Piauí" class="form_select_option">Piauí</option>  
+                    <option value="Rio de Janeiro" class="form_select_option">Rio de Janeiro</option>  
+                    <option value="Rio Grande do Norte" class="form_select_option">Rio Grande do Norte</option>  
+                    <option value="Rio Grande do Sul" class="form_select_option">Rio Grande do Sul</option>  
+                    <option value="Rondônia" class="form_select_option">Rondônia</option>  
+                    <option value="Roraima" class="form_select_option">Roraima</option>  
+                    <option value="Santa Catarina" class="form_select_option">Santa Catarina</option>  
+                    <option value="São Paulo" class="form_select_option">São Paulo</option>    
+                    <option value="Sergipe" class="form_select_option">Sergipe</option>
+                    <option value="Tocantis" class="form_select_option">Tocantis</option>
+                    <option value="Distrito Federal" class="form_select_option">Distrito Federal</option>      
+            
+                </select>
+    
+            </div>
+
+        </div>
+
+        <h3>Quais ofertas você gostaria de receber?</h3>
+
+        <div class="cont">
+
+          <div class="card1">
+            <img src="Imagens/iphone12.webp" alt="Iphone 12">
+            <label for="card1">Iphone 12</label>
+            <input type="checkbox" id="card1" value="card1">
+          </div>
+
+          <div class="card2">
+            <img src="Imagens/appletv.jpeg" alt="Apple Tv">
+            <label for="card2">Apple Tv</label>
+            <input type="checkbox" id="card2" value="card2">
+          </div>
+
+          <div class="card3">
+            <img src="Imagens/airpods.jpeg" alt="Air Pods">
+            <label for="card3">Air Pods</label>
+            <input type="checkbox" id="card3" value="card3">
+          </div>
+
+          <div class="card4">
+            <img src="Imagens/applewatch.jpeg" alt="Apple Watch">
+            <label for="card4">Apple Watch</label>
+            <input type="checkbox" id="card4" value="card4">
+          </div>
+
+          <div class="card5">
+            <img src="Imagens/ipadair.jpeg" alt="Ipad Air">
+            <label for="card5">Ipad Air</label>
+            <input type="checkbox" id="card5" value="card5">
+          </div>
+
+          <div class="card6">
+            <img src="Imagens/mac.jpeg" alt="Mac">
+            <label for="card6">Mac</label>
+            <input type="checkbox" id="card6" value="card6">
+          </div>
+        </div>
+            
+        <div class="submit">
+          <input type="hidden" name="acao" value="enviar">
+          <button type="submit" name="Submit" class="submit_btn" >Confirmar Cadastro</button>
+        
+          <input type="hidden" name="acao" value="enviar">
+          <button type="submit" name="Submit" class="submit_btn" >Limpar</button>
+        </div>
+            
+    </form>
+
+</div>
+
