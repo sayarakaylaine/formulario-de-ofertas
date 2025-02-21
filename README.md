@@ -1,4 +1,4 @@
-# 📋 Formulario de Ofertas
+# 📋 Formulário de Ofertas
 Este projeto foi desenvolvido como parte da disciplina Programação Web II, com o objetivo de aprimorar conhecimentos em formulários HTML, estilização com CSS e interatividade com JavaScript.
 
 **Descrição**
@@ -21,6 +21,7 @@ O Formulario de Ofertas é uma aplicação web que permite o cadastro de usuári
 **Layout**
 
 O formulário apresenta um design simples e responsivo, contendo:
+
 🔹 Campos para nome, sobrenome, e-mail, telefone, cidade e estado
 🔹 Um conjunto de checkboxes para selecionar produtos desejados
 🔹 Botões para confirmar o cadastro ou limpar os dados
