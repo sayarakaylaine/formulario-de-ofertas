@@ -1,4 +1,4 @@
-# 📋 Formulário de Ofertas
+# Formulário de Ofertas
 Este projeto foi desenvolvido como parte da disciplina Programação Web II, com o objetivo de aprimorar conhecimentos em formulários HTML, estilização com CSS e interatividade com JavaScript.
 
 **Descrição**
