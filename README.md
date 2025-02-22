@@ -19,7 +19,7 @@ O Formulario de Ofertas é uma aplicação web que permite o cadastro de usuári
 
 🔹 Seleção de produtos desejados através de checkboxes
 
-🔹 Validação dos campos do formulário (se aplicável)
+🔹 Validação dos campos do formulário
 
 🔹 Botões para confirmar ou limpar o cadastro
 
